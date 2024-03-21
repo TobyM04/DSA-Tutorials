@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quote Input Form</title>
+</head>
+<body>
+    <form action="/ws3/append_csv.php" method="post">
+        <label for="quote">Quote:</label>
+        <input type="text" id="quote" name="quote" required minlength="8" maxlength="1200"><br><br>
+        <label for="source">Source:</label>
+        <input type="text" id="source" name="source" required minlength="6" maxlength="48"><br><br>
+        <label for="dob-dod">DOB-DOD:</label>
+        <input type="text" id="dob-dod" name="dob-dod" required pattern="\d{4}-\d{4}|\d{4}"><br><br>
+        <label for="wplink">Wikipedia Link:</label>
+        <input type="url" id="wplink" name="wplink" required pattern="https://en.wikipedia.org/wiki/.*"><br><br>
+        <label for="wpimg">Wikipedia Image Link:</label>
+        <input type="url" id="wpimg" name="wpimg" required pattern="https://upload.wikimedia.org/wikipedia/commons/.*"><br><br>
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="politics">Politics</option>
+            <option value="love">Love</option>
+            <option value="humour">Humour</option>
+            <option value="philosophy">Philosophy</option>
+            <option value="education">Education</option>
+            <option value="culture">Culture</option>
+            <option value="history">History</option>
+            <option value="science">Science</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

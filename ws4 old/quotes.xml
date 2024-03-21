@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quotes>
+    <quote>
+        <text>The old world is dying, and a new world struggles to be born; now is the time of monsters.</text>
+        <source>Antonio Gramsci</source>
+        <dob-dod>1891-1937</dob-dod>
+        <wplink>https://en.wikipedia.org/wiki/Antonio_Gramsci</wplink>
+        <wpimg>https://upload.wikimedia.org/wikipedia/commons/e/e6/Gramsci.png</wpimg>
+        <category>politics</category>
+    </quote>
+    <quote>
+        <text>They'll say we're disturbing the peace, but there is no peace. What really bothers them is that we are disturbing the war.</text>
+        <source>Howard Zinn</source>
+        <dob-dod>1922-2010</dob-dod>
+        <wplink>https://en.wikipedia.org/wiki/Howard_Zinn</wplink>
+        <wpimg>https://upload.wikimedia.org/wikipedia/commons/e/ef/Howard_Zinn%2C_2009_%28cropped%29.jpg</wpimg>
+        <category>politics</category>
+    </quote>
+</quotes>
